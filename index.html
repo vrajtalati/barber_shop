@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Staatliches&display=swap" rel="stylesheet"
+
+</head>
+<body>
+    <section id="banner"> 
+        <img class="logo" src="images/logo.png" alt="">
+        <div class="banner_text">
+            <h1>HAIR STYLE</h1>
+            <P>Style Your Hair with Glow</P>
+        </div>
+        <div class="banner_btn">
+            <a href="#">Find Out</a>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menu_btn">
+        <img src="images/menu.png" alt="" id="menu" >
+    </div>
+
+    <div class="offerings">
+        
+    </div>
+
+    <script>
+
+       var sidenav = document.getElementById("sidenav")
+       var menuBtn = document.getElementById("menu_btn")
+       var menu = document.getElementById("menu")
+        sidenav.style.right="-250px";
+     menuBtn.onclick=function()
+     {
+        if(sidenav.style.right=="-250px")
+        {
+            sidenav.style.right="0";
+            menu.src="images/close.png";
+        }
+        else
+        {
+            sidenav.style.right="-250px"
+            menu.src="images/menu.png"
+        }
+
+     }
+     
+    </script>
+</body>
+</html>

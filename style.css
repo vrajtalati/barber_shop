@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#banner
+{
+   background:linear-gradient(rgba(18, 9, 9, 0.192),rgb(36, 81, 36)), url(images/banner.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   width: 100%;
+}
+.logo
+{   width: 14vw;
+    position: absolute;
+    top: 10%;
+    left: 14%;
+
+
+}
+.banner_text {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 200px;
+}
+.banner_text h1{
+    font-size: 150px;
+    font-family: 'Staatliches', cursive;
+}
+.banner_text p
+{   font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+    padding: 0px;
+}
+.banner_btn
+{
+    text-align: center;
+}
+.banner_btn a
+{
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+ 
+    border: 0.5mm solid white;
+    color: azure;
+    text-shadow: 20px;
+}
+.banner_btn a:hover
+{
+    background-color: rgb(63, 61, 61);
+}
+
+#sidenav 
+{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+   background-color:rgb(36, 81, 36);
+   
+    z-index: 2;
+    transition: 1s;
+
+}
+#sidenav ul
+{
+    list-style: none;
+    margin-top: 70px;
+   
+}
+#sidenav ul li{
+    margin:20px;
+    
+   
+    width: 110px;
+}
+#sidenav ul li a{
+    text-decoration: none;
+    color: azure;
+  
+   
+    
+}
+#menu_btn
+{
+    height: 50px;
+    width: 50px;
+    /* background-color: black; */
+    background:rgb(36, 81, 36);
+    position: fixed;
+    text-align: center;
+    top: 20px;
+    right: 10px;
+    z-index: 3;
+    border: 0.5mm solid white;
+    cursor: pointer;
+    
+    
+
+
+}
+#menu_btn img{
+    width:20px ;
+    margin-top: 15px;
+    /* transition: 1s; */
+
+}
+#menu
+{
+    transition: 4s;
+}
